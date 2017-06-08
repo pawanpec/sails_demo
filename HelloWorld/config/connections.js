@@ -29,7 +29,8 @@ module.exports.connections = {
   *                                                                          *
   ***************************************************************************/
   localDiskDb: {
-    adapter: 'sails-disk'
+    adapter: 'sails-disk' // store data in .tmp DB in project folder. to over rides
+
   },
 
   /***************************************************************************
